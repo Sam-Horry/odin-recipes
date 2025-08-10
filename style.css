@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 0 auto;
+  max-width: 800;
+  padding: 20px;
+  background: #fafafa;
+  color: #333;
+}
+
+/* Index page */
+
+.title {
+  text-align: center;
+  margin-bottom: 24px;
+  color: darkred;
+  font-size: 32px;
+}
+
+.recipes {
+  max-width: 600px;
+  margin: auto;
+}
+
+.recipe {
+  list-style: none;
+  border-bottom: 1px solid black;
+  padding: 12px;
+}
+
+.recipe:last-child {
+  border-bottom: none;
+}
+
+/* Links */
+
+a {
+  text-decoration: none;
+  color: steelblue;
+  font-weight: bold;
+}
+
+a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+/* Recipe pages */
+h1 {
+  margin-top: 0;
+  font-size: 32px;
+  color: darkred;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 24px;
+  color: #222;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 16px 0;
+}
+
+ul,
+ol {
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.home-link {
+  display: inline-block;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
